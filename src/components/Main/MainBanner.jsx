@@ -15,9 +15,9 @@ export default function MainBanner() {
 
     return (
         <>
-            <img src="/images/assets/mainBanner.png" alt="main-banner" id="main-banner"/>
+            <img src="../assets/images/mainBanner.png" alt="main-banner" id="main-banner"/>
             <button id="main-btn" onClick={handleClick}>Let's Learn</button>
-            <audio src="/music/assets/music/backgroundMusic.mp3" autoPlay loop id="mainAudio"></audio>
+            <audio src="../assets/music/backgroundMusic.mp3" autoPlay loop id="mainAudio"></audio>
         </>
     )
 }

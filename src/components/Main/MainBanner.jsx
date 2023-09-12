@@ -6,7 +6,7 @@ export default function MainBanner() {
 
     useEffect(() => {
         let audio = document.getElementById("mainAudio");
-        audio.volume = 0.20;
+        audio.volume = 0.15;
     }, []);
 
     const handleClick = () => {
@@ -17,7 +17,7 @@ export default function MainBanner() {
         <>
             <img src="../assets/images/mainBanner.png" alt="main-banner" id="main-banner"/>
             <button id="main-btn" onClick={handleClick}>Let's Learn</button>
-            <audio src="../assets/music/backgroundMusic.mp3" autoPlay loop id="mainAudio"></audio>
+            <audio src="../assets/music/backgroundMusic.mp3" id="mainAudio" autoPlay loop></audio>
         </>
     )
 }

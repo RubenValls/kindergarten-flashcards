@@ -1,0 +1,28 @@
+{
+    "topics": [
+        {
+            "name": "Animals",
+            "img": "../assets/images/animals/elephant.svg"
+        },
+        {
+            "name": "Classroom",
+            "img": "../assets/images/classroom/classroom.svg"
+        },
+        {
+            "name": "Transports",
+            "img": "../assets/images/transports/train.svg"
+        },
+        {
+            "name": "Earth",
+            "img": "../assets/images/earth/earth.svg"
+        },
+        {
+            "name": "Music",
+            "img": "../assets/images/music/music.svg"
+        },
+        {
+            "name": "Colors",
+            "img": "../assets/images/colors/colors.svg"
+        }
+    ]
+}

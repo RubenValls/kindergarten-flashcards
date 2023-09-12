@@ -1,7 +1,9 @@
 #game{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    min-height: 100%;
+    height: auto;
     background-color: #BDD2B6;
+    overflow: hidden;
 
     nav{
         background-color: #F8EDE3;
@@ -16,6 +18,63 @@
         #nav-image{
             width: auto;
             height: 50px;
+        }
+    }
+
+    #gameTopic{
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 30px auto;
+        width: 90%;
+        max-width: 1500px;
+        height: auto;
+        
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            height: 350px;
+            width: 300px;
+            background-color: #F8EDE3;
+            border: 3px solid #798777;
+            box-shadow: 10px 10px 15px #A2B29F;
+
+            &:hover{
+                cursor: pointer;
+                background-color: #7987775e;
+                transition: all 1s;
+            }
+
+            &:not(:hover){
+                transition: all 1s;
+            }
+
+            .topic-icon{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+                width: 100%;
+
+                img{
+                    max-width: 80%;
+                }
+            }
+
+            .topic-title{
+                width: 100%;
+                height: 15%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+                border-top: 3px solid #798777;
+
+            }
         }
     }
 }

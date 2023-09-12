@@ -50,4 +50,24 @@
   transition: 100ms;
 }
 
+#game {
+  width: 100%;
+  height: 100%;
+  background-color: #BDD2B6;
+}
+#game nav {
+  background-color: #F8EDE3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+}
+#game nav #nav-image {
+  width: auto;
+  height: 50px;
+}
+
 /*# sourceMappingURL=index.css.map */

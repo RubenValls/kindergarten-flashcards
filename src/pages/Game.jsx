@@ -1,5 +1,9 @@
+import GameNav from "../components/Main/GameNav";
+
 export default function Game() {
   return (
-    <div>Game</div>
+    <section id="game">
+        <GameNav/>
+    </section>
   )
 }

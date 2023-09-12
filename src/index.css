@@ -121,4 +121,26 @@
   border-top: 3px solid #798777;
 }
 
+#topic {
+  width: 100vw;
+  min-height: 100%;
+  height: auto;
+  background-color: #BDD2B6;
+  overflow: hidden;
+}
+#topic nav {
+  background-color: #F8EDE3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+}
+#topic nav #nav-image {
+  width: auto;
+  height: 50px;
+}
+
 /*# sourceMappingURL=index.css.map */

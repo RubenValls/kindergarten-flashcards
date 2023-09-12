@@ -1,6 +1,13 @@
-export default function TopicCard({name, img}) {
+import { useNavigate } from "react-router-dom";
+export default function TopicCard({name, img, subtopics}) {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate(`/game/${name.toLowerCase()}`)
+  }
+
   return (
-    <div className="card">
+    <div className="card" onClick={handleNavigate}>
             <div className="topic-icon">
                 <img src={img} alt={name}/>
             </div>

@@ -2,27 +2,46 @@
     "topics": [
         {
             "name": "Animals",
-            "img": "../assets/images/animals/elephant.svg"
+            "img": "../assets/images/animals/elephant.svg",
+            "subtopics": [
+                {
+                    "name": "Sea",
+                    "img": ""
+                },
+                {
+                    "name": "Wild",
+                    "img": ""
+                },
+                {
+                    "name": "Farm",
+                    "img": ""
+                }
+            ]
         },
         {
             "name": "Classroom",
-            "img": "../assets/images/classroom/classroom.svg"
+            "img": "../assets/images/classroom/classroom.svg",
+            "subtopics": []
         },
         {
             "name": "Transports",
-            "img": "../assets/images/transports/train.svg"
+            "img": "../assets/images/transports/train.svg",
+            "subtopics": []
         },
         {
             "name": "Earth",
-            "img": "../assets/images/earth/earth.svg"
+            "img": "../assets/images/earth/earth.svg",
+            "subtopics": []
         },
         {
             "name": "Music",
-            "img": "../assets/images/music/music.svg"
+            "img": "../assets/images/music/music.svg",
+            "subtopics": []
         },
         {
             "name": "Colors",
-            "img": "../assets/images/colors/colors.svg"
+            "img": "../assets/images/colors/colors.svg",
+            "subtopics": []
         }
     ]
 }

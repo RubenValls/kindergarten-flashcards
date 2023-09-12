@@ -19,7 +19,7 @@ export default function GameTopic() {
         <section id="gameTopic">
             {
                 topics?.topics?.map((topic) => {
-                    return(<TopicCard key={topic.name} name={topic.name} img={topic.img}/>)
+                    return(<TopicCard key={topic.name} name={topic.name} img={topic.img} subtopics={topic.subtopics}/>)
                 })
             }
         </section>

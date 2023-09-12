@@ -3,7 +3,16 @@ export default function TopicCard({name, img, subtopics}) {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate(`/game/${name.toLowerCase()}`)
+    navigate(
+      `/game/${name.toLowerCase()}`,
+      {
+        state: {
+          name: name,
+          img: img,
+          subtopics: subtopics
+        }
+      }
+      )
   }
 
   return (

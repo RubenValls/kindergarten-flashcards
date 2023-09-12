@@ -9,7 +9,7 @@ export default function GameTopic() {
     }, []);
 
     const getData = () => {
-        fetch('/mocks/topics.json')
+        fetch('src/mocks/topics.json')
             .then(response => response.json())
             .then(data => setTopics(data))
             .catch(error => console.log(error));

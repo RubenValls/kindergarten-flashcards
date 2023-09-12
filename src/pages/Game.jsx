@@ -11,7 +11,7 @@ export default function Game() {
     return (
         <section id="game">
             <GameNav/>
-            <audio src="public/music/backgroundMusic.mp3" autoPlay loop id="mainAudio"></audio>
+            <audio src="src/assets/music/backgroundMusic.mp3" autoPlay loop id="mainAudio"></audio>
         </section>
     )
 }

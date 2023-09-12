@@ -1,16 +1,10 @@
-import { useEffect } from "react";
-export default function Main() {
+import MainBanner from "../components/Main/MainBanner";
 
-    useEffect(() => {
-        let audio = document.getElementById("mainAudio");
-        audio.volume = 0.25;
-    }, []);
+export default function Main() {
     
     return (
         <section id="main">
-            <img src="./src/assets/mainBanner.png" alt="main-banner" id="main-banner"/>
-            <button id="main-btn">Let's Learn</button>
-            <audio src="./src/assets/music/backgroundMusic.mp3" autoPlay loop id="mainAudio"></audio>
+            <MainBanner/>
         </section>
     );
 }

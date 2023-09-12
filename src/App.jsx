@@ -3,6 +3,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Main from "./pages/main";
+import Game from "./pages/Game";
 
 function App() {
 
@@ -10,6 +11,10 @@ function App() {
     {
       path: "/",
       element: <Main/>,
+    },
+    {
+      path: "/game",
+      element: <Game/>,
     },
   ]);
 

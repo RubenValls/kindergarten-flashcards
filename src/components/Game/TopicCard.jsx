@@ -1,11 +1,11 @@
-export default function TopicCard() {
+export default function TopicCard({name, img}) {
   return (
     <div className="card">
             <div className="topic-icon">
-                <img src="../assets/images/animals/elephant.svg" alt="topic"/>
+                <img src={img} alt={name}/>
             </div>
             <div className="topic-title">
-                <h2>Animals</h2>
+                <h2>{name.toUpperCase()}</h2>
             </div>
     </div>
   )

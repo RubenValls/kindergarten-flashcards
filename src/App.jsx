@@ -2,7 +2,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Main from "./pages/main";
+import Main from "./pages/Main";
 import Game from "./pages/Game";
 
 function App() {

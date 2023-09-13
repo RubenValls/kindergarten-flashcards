@@ -6,7 +6,7 @@ export default function Game() {
 
     useEffect(() => {
         let audio = document.getElementById("mainAudio");
-        audio.volume = 0.15;
+        audio.volume = 0.1;
     }, []);
 
     return (

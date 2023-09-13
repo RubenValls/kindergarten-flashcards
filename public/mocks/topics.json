@@ -223,7 +223,53 @@
             "name": "Colors",
             "img": "../assets/images/colors/colors.svg",
             "subtopics": [],
-            "flashcards": []
+            "flashcards": [
+                {
+                    "name": "Red",
+                    "img": "../assets/images/colors/red.svg",
+                    "sound": "../assets/music/colors/red.mp3"
+                },
+                {
+                    "name": "Orange",
+                    "img": "../assets/images/colors/orange.svg",
+                    "sound": "../assets/music/colors/orange.mp3"
+                },
+                {
+                    "name": "Yellow",
+                    "img": "../assets/images/colors/yellow.svg",
+                    "sound": "../assets/music/colors/yellow.mp3"
+                },
+                {
+                    "name": "Green",
+                    "img": "../assets/images/colors/green.svg",
+                    "sound": "../assets/music/colors/green.mp3"
+                },
+                {
+                    "name": "Blue",
+                    "img": "../assets/images/colors/blue.svg",
+                    "sound": "../assets/music/colors/blue.mp3"
+                },
+                {
+                    "name": "Purple",
+                    "img": "../assets/images/colors/purple.svg",
+                    "sound": "../assets/music/colors/purple.mp3"
+                },
+                {
+                    "name": "Brown",
+                    "img": "../assets/images/colors/brown.svg",
+                    "sound": "../assets/music/colors/brown.mp3"
+                },
+                {
+                    "name": "Black",
+                    "img": "../assets/images/colors/black.svg",
+                    "sound": "../assets/music/colors/black.mp3"
+                },
+                {
+                    "name": "Grey",
+                    "img": "../assets/images/colors/grey.svg",
+                    "sound": "../assets/music/colors/grey.mp3"
+                }
+            ]
         }
     ]
 }

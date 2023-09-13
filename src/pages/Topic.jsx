@@ -7,7 +7,6 @@ import Flashcards from "../components/Topic/Flashcards";
 export default function Topic() {
     const location = useLocation();
     const data = location?.state;
-    console.log(data)
 
     useEffect(() => {
         let audio = document.getElementById("mainAudio");

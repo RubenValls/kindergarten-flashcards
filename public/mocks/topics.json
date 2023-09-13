@@ -176,7 +176,48 @@
             "name": "Music",
             "img": "../assets/images/music/music.svg",
             "subtopics": [],
-            "flashcards": []
+            "flashcards": [
+                {
+                    "name": "Guitar",
+                    "img": "../assets/images/music/guitar.svg",
+                    "sound": "../assets/music/music/guitar.mp3"
+                },
+                {
+                    "name": "Violin",
+                    "img": "../assets/images/music/violin.svg",
+                    "sound": "../assets/music/music/violin.mp3"
+                },
+                {
+                    "name": "Piano",
+                    "img": "../assets/images/music/piano.svg",
+                    "sound": "../assets/music/music/piano.mp3"
+                },
+                {
+                    "name": "Flute",
+                    "img": "../assets/images/music/flute.svg",
+                    "sound": "../assets/music/music/flute.mp3"
+                },
+                {
+                    "name": "Drums",
+                    "img": "../assets/images/music/drums.svg",
+                    "sound": "../assets/music/music/drums.mp3"
+                },
+                {
+                    "name": "Trumpet",
+                    "img": "../assets/images/music/trumpet.svg",
+                    "sound": "../assets/music/music/trumpet.mp3"
+                },
+                {
+                    "name": "Harp",
+                    "img": "../assets/images/music/harp.svg",
+                    "sound": "../assets/music/music/harp.mp3"
+                },
+                {
+                    "name": "Accordion",
+                    "img": "../assets/images/music/accordion.svg",
+                    "sound": "../assets/music/music/accordion.mp3"
+                }
+            ]
         },
         {
             "name": "Colors",

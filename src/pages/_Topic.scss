@@ -81,7 +81,18 @@
         @extend #subtopics;
 
         i{
-            margin-left: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            margin: 10px;
+            height: 30px;
+            width: 30px;
+            transition: all .5s;
+
+            &:hover{
+                background-color: #f8ede39f;
+            }
         }
 
         #secretName{

@@ -72,7 +72,48 @@
             "name": "Transports",
             "img": "../assets/images/transports/train.svg",
             "subtopics": [],
-            "flashcards": []
+            "flashcards": [
+                {
+                    "name": "Car",
+                    "img": "../assets/images/transports/car.svg",
+                    "sound": "../assets/music/transports/car.mp3"
+                },
+                {
+                    "name": "Bus",
+                    "img": "../assets/images/transports/bus.svg",
+                    "sound": "../assets/music/transports/bus.mp3"
+                },
+                {
+                    "name": "Bike",
+                    "img": "../assets/images/transports/bike.svg",
+                    "sound": "../assets/music/transports/bike.mp3"
+                },
+                {
+                    "name": "Motorbike",
+                    "img": "../assets/images/transports/motorbike.svg",
+                    "sound": "../assets/music/transports/motorbike.mp3"
+                },
+                {
+                    "name": "Train",
+                    "img": "../assets/images/transports/train.svg",
+                    "sound": "../assets/music/transports/train.mp3"
+                },
+                {
+                    "name": "Ship",
+                    "img": "../assets/images/transports/ship.svg",
+                    "sound": "../assets/music/transports/ship.mp3"
+                },
+                {
+                    "name": "Plane",
+                    "img": "../assets/images/transports/plane.svg",
+                    "sound": "../assets/music/transports/plane.mp3"
+                },
+                {
+                    "name": "Scooter",
+                    "img": "../assets/images/transports/scooter.svg",
+                    "sound": "../assets/music/transports/scooter.mp3"
+                }
+            ]
         },
         {
             "name": "Earth",

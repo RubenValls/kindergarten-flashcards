@@ -73,12 +73,21 @@
                 justify-content: center;
                 margin: auto;
                 border-top: 3px solid #798777;
-
             }
         }
     }
 
     #flashcards{
         @extend #subtopics;
+
+        i{
+            margin-left: 10px;
+        }
+
+        #secretName{
+            letter-spacing: 4px;
+            font-size: 35px;
+            margin-top: 40px;
+        }
     }
 }

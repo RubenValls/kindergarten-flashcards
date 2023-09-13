@@ -191,5 +191,13 @@
   margin: auto;
   border-top: 3px solid #798777;
 }
+#topic #flashcards i {
+  margin-left: 10px;
+}
+#topic #flashcards #secretName {
+  letter-spacing: 4px;
+  font-size: 35px;
+  margin-top: 40px;
+}
 
 /*# sourceMappingURL=index.css.map */

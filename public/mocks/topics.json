@@ -119,7 +119,58 @@
             "name": "Earth",
             "img": "../assets/images/earth/earth.svg",
             "subtopics": [],
-            "flashcards": []
+            "flashcards": [
+                {
+                    "name": "Tree",
+                    "img": "../assets/images/earth/tree.svg",
+                    "sound": "../assets/music/earth/tree.mp3"
+                },
+                {
+                    "name": "Flower",
+                    "img": "../assets/images/earth/flower.svg",
+                    "sound": "../assets/music/earth/flower.mp3"
+                },
+                {
+                    "name": "Mountain",
+                    "img": "../assets/images/earth/mountain.svg",
+                    "sound": "../assets/music/earth/mountain.mp3"
+                },
+                {
+                    "name": "Beach",
+                    "img": "../assets/images/earth/beach.svg",
+                    "sound": "../assets/music/earth/beach.mp3"
+                },
+                {
+                    "name": "City",
+                    "img": "../assets/images/earth/city.svg",
+                    "sound": "../assets/music/earth/city.mp3"
+                },
+                {
+                    "name": "Road",
+                    "img": "../assets/images/earth/road.svg",
+                    "sound": "../assets/music/earth/road.mp3"
+                },
+                {
+                    "name": "Bridge",
+                    "img": "../assets/images/earth/bridge.svg",
+                    "sound": "../assets/music/earth/bridge.mp3"
+                },
+                {
+                    "name": "Volcano",
+                    "img": "../assets/images/earth/volcano.svg",
+                    "sound": "../assets/music/earth/volcano.mp3"
+                },
+                {
+                    "name": "Wave",
+                    "img": "../assets/images/earth/wave.svg",
+                    "sound": "../assets/music/earth/wave.mp3"
+                },
+                {
+                    "name": "Sky",
+                    "img": "../assets/images/earth/sky.svg",
+                    "sound": "../assets/music/earth/sky.mp3"
+                }
+            ]
         },
         {
             "name": "Music",

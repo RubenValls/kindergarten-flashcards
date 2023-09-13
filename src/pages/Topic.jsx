@@ -8,11 +8,6 @@ export default function Topic() {
     const location = useLocation();
     const data = location?.state;
 
-    // useEffect(() => {
-    //     let audio = document.getElementById("mainAudio");
-    //     audio.volume = 0.1;
-    // }, []);
-
     return (
         <section id="topic">
             <TopicNav/>
@@ -21,7 +16,6 @@ export default function Topic() {
                     ? (<Subtopics props = {data}/>)
                     : (<Flashcards/>)
             }
-            {/* <audio src="../assets/music/backgroundMusic.mp3" autoPlay loop id="mainAudio"></audio> */}
         </section>
     )
 }

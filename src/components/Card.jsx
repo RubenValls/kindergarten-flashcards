@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-export default function TopicCard({name, img, subtopics}) {
+export default function Card({name, img, subtopics, flashcards}) {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
@@ -9,7 +9,8 @@ export default function TopicCard({name, img, subtopics}) {
         state: {
           name: name,
           img: img,
-          subtopics: subtopics
+          subtopics: subtopics,
+          flashcards: flashcards,
         }
       }
       )

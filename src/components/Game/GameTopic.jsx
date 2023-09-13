@@ -1,4 +1,4 @@
-import TopicCard from "./TopicCard";
+import Card from "../Card";
 import { useEffect, useState } from "react"
 
 export default function GameTopic() {
@@ -19,7 +19,7 @@ export default function GameTopic() {
         <section id="gameTopic">
             {
                 topics?.topics?.map((topic) => {
-                    return(<TopicCard key={topic.name} name={topic.name} img={topic.img} subtopics={topic.subtopics}/>)
+                    return(<Card key={topic.name} name={topic.name} img={topic.img} subtopics={topic.subtopics} flashcards={topic?.flashcards} />)
                 })
             }
         </section>

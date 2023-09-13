@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import TopicNav from "../components/Topic/TopicNav";
 import Subtopics from "../components/Topic/Subtopics";
 import Flashcards from "../components/Topic/Flashcards";
+import Footer from "../components/Footer";
 
 export default function Topic() {
     const location = useLocation();
@@ -16,6 +17,7 @@ export default function Topic() {
                     ? (<Subtopics props = {data}/>)
                     : (<Flashcards/>)
             }
+            <Footer/>
         </section>
     )
 }

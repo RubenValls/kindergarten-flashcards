@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import Main from "./pages/Main";
 import Game from "./pages/Game";
 import Topic from "./pages/Topic";
+import Footer from "./components/Footer";
 
 function App() {
 

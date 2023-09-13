@@ -7,17 +7,200 @@
                 {
                     "name": "Sea",
                     "img": "../assets/images/animals/sea.svg",
-                    "flashcards": []
+                    "flashcards": [
+                        {
+                            "name": "Shark",
+                            "img": "../assets/images/animals/sea/shark.svg",
+                            "sound": "../assets/music/animals/sea/shark.mp3"
+                        },
+                        {
+                            "name": "Starfish",
+                            "img": "../assets/images/animals/sea/starfish.svg",
+                            "sound": "../assets/music/animals/sea/starfish.mp3"
+                        },
+                        {
+                            "name": "Whale",
+                            "img": "../assets/images/animals/sea/whale.svg",
+                            "sound": "../assets/music/animals/sea/whale.mp3"
+                        },
+                        {
+                            "name": "Crab",
+                            "img": "../assets/images/animals/sea/crab.svg",
+                            "sound": "../assets/music/animals/sea/crab.mp3"
+                        },
+                        {
+                            "name": "Fish",
+                            "img": "../assets/images/animals/sea/fish.svg",
+                            "sound": "../assets/music/animals/sea/fish.mp3"
+                        },
+                        {
+                            "name": "Turtle",
+                            "img": "../assets/images/animals/sea/turtle.svg",
+                            "sound": "../assets/music/animals/sea/turtle.mp3"
+                        },
+                        {
+                            "name": "Seal",
+                            "img": "../assets/images/animals/sea/seal.svg",
+                            "sound": "../assets/music/animals/sea/seal.mp3"
+                        },
+                        {
+                            "name": "Seahorse",
+                            "img": "../assets/images/animals/sea/seahorse.svg",
+                            "sound": "../assets/music/animals/sea/seahorse.mp3"
+                        },
+                        {
+                            "name": "Orca",
+                            "img": "../assets/images/animals/sea/orca.svg",
+                            "sound": "../assets/music/animals/sea/orca.mp3"
+                        },
+                        {
+                            "name": "Dolphin",
+                            "img": "../assets/images/animals/sea/dolphin.svg",
+                            "sound": "../assets/music/animals/sea/dolphin.mp3"
+                        },
+                        {
+                            "name": "Octopus",
+                            "img": "../assets/images/animals/sea/octopus.svg",
+                            "sound": "../assets/music/animals/sea/octopus.mp3"
+                        },
+                        {
+                            "name": "Jellyfish",
+                            "img": "../assets/images/animals/sea/jellyfish.svg",
+                            "sound": "../assets/music/animals/sea/jellyfish.mp3"
+                        }
+                    ]
                 },
                 {
                     "name": "Wild",
                     "img": "../assets/images/animals/wild.svg",
-                    "flashcards": []
+                    "flashcards": [
+                        {
+                            "name": "Bull",
+                            "img": "../assets/images/animals/wild/bull.svg",
+                            "sound": "../assets/music/animals/wild/bull.mp3"
+                        },
+                        {
+                            "name": "Koala",
+                            "img": "../assets/images/animals/wild/koala.svg",
+                            "sound": "../assets/music/animals/wild/koala.mp3"
+                        },
+                        {
+                            "name": "Hippopotamus",
+                            "img": "../assets/images/animals/wild/hippopotamus.svg",
+                            "sound": "../assets/music/animals/wild/hippopotamus.mp3"
+                        },
+                        {
+                            "name": "Tiger",
+                            "img": "../assets/images/animals/wild/tiger.svg",
+                            "sound": "../assets/music/animals/wild/tiger.mp3"
+                        },
+                        {
+                            "name": "Zebra",
+                            "img": "../assets/images/animals/wild/zebra.svg",
+                            "sound": "../assets/music/animals/wild/zebra.mp3"
+                        },
+                        {
+                            "name": "Fox",
+                            "img": "../assets/images/animals/wild/fox.svg",
+                            "sound": "../assets/music/animals/wild/fox.mp3"
+                        },
+                        {
+                            "name": "Lion",
+                            "img": "../assets/images/animals/wild/lion.svg",
+                            "sound": "../assets/music/animals/wild/lion.mp3"
+                        },
+                        {
+                            "name": "Monkey",
+                            "img": "../assets/images/animals/wild/monkey.svg",
+                            "sound": "../assets/music/animals/wild/monkey.mp3"
+                        },
+                        {
+                            "name": "Eagle",
+                            "img": "../assets/images/animals/wild/eagle.svg",
+                            "sound": "../assets/music/animals/wild/eagle.mp3"
+                        },
+                        {
+                            "name": "Elephant",
+                            "img": "../assets/images/animals/wild/wildelephant.svg",
+                            "sound": "../assets/music/animals/wild/elephant.mp3"
+                        },
+                        {
+                            "name": "Snake",
+                            "img": "../assets/images/animals/wild/snake.svg",
+                            "sound": "../assets/music/animals/wild/snake.mp3"
+                        },
+                        {
+                            "name": "Gorilla",
+                            "img": "../assets/images/animals/wild/gorilla.svg",
+                            "sound": "../assets/music/animals/wild/gorilla.mp3"
+                        },
+                        {
+                            "name": "Bear",
+                            "img": "../assets/images/animals/wild/bear.svg",
+                            "sound": "../assets/music/animals/wild/bear.mp3"
+                        }
+                    ]
                 },
                 {
                     "name": "Farm",
                     "img": "../assets/images/animals/farm.svg",
-                    "flashcards": []
+                    "flashcards": [
+                        {
+                            "name": "Dog",
+                            "img": "../assets/images/animals/farm/dog.svg",
+                            "sound": "../assets/music/animals/farm/dog.mp3"
+                        },
+                        {
+                            "name": "Horse",
+                            "img": "../assets/images/animals/farm/horse.svg",
+                            "sound": "../assets/music/animals/farm/horse.mp3"
+                        },
+                        {
+                            "name": "Donkey",
+                            "img": "../assets/images/animals/farm/donkey.svg",
+                            "sound": "../assets/music/animals/farm/donkey.mp3"
+                        },
+                        {
+                            "name": "Chicken",
+                            "img": "../assets/images/animals/farm/chicken.svg",
+                            "sound": "../assets/music/animals/farm/chicken.mp3"
+                        },
+                        {
+                            "name": "Cow",
+                            "img": "../assets/images/animals/farm/cow.svg",
+                            "sound": "../assets/music/animals/farm/cow.mp3"
+                        },
+                        {
+                            "name": "Rabbit",
+                            "img": "../assets/images/animals/farm/rabbit.svg",
+                            "sound": "../assets/music/animals/farm/rabbit.mp3"
+                        },
+                        {
+                            "name": "Duck",
+                            "img": "../assets/images/animals/farm/duck.svg",
+                            "sound": "../assets/music/animals/farm/duck.mp3"
+                        },
+                        {
+                            "name": "Parrot",
+                            "img": "../assets/images/animals/farm/parrot.svg",
+                            "sound": "../assets/music/animals/farm/parrot.mp3"
+                        },
+                        {
+                            "name": "Cat",
+                            "img": "../assets/images/animals/farm/cat.svg",
+                            "sound": "../assets/music/animals/farm/cat.mp3"
+                        },
+                        {
+                            "name": "Pig",
+                            "img": "../assets/images/animals/farm/pig.svg",
+                            "sound": "../assets/music/animals/farm/pig.mp3"
+                        },
+                        {
+                            "name": "Sheep",
+                            "img": "../assets/images/animals/farm/sheep.svg",
+                            "sound": "../assets/music/animals/farm/sheep.mp3"
+                        }
+                    ]
                 }
             ]
         },

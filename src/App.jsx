@@ -25,14 +25,17 @@ function App() {
   ]);
 
   useEffect(() => {
-    let audio = document.getElementById("mainAudio");
-    audio.volume = 0.1;
+    const audio = document.getElementById("mainAudio");
+    document.addEventListener('click', () => {
+      audio.play()
+      audio.volume = 0.05;
+    })
   }, []);
 
   return (
     <div className="app">
       <RouterProvider router={router} />
-      <audio src="../assets/music/backgroundMusic.mp3" id="mainAudio" autoPlay loop></audio>
+      <audio src="../assets/music/backgroundMusic.mp3" id="mainAudio" loop></audio>
     </div>
   )
 }

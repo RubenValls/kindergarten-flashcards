@@ -6,6 +6,7 @@
     overflow: hidden;
 
     nav{
+        position: fixed;
         background-color: #F8EDE3;
         display: flex;
         justify-content: center;
@@ -14,6 +15,16 @@
         overflow: hidden;
         width: 100%;
         height: 50px;
+
+        i{
+            position: absolute;
+            left: 30px;
+            color: #798777;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
 
         #nav-image{
             width: auto;
@@ -26,7 +37,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 30px auto;
+        margin: 100px auto;
         width: 90%;
         max-width: 1500px;
         height: auto;

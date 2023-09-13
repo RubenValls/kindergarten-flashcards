@@ -9,7 +9,7 @@ export default function Flashcards() {
         <section id="flashcards">
                 {
                     flashcards?.flashcards?.map((flashcard) => {
-                        return(<SoundCard key={flashcard.name} name={flashcard.name} img={flashcard.img}/>)
+                        return(<SoundCard key={flashcard.name} name={flashcard.name} img={flashcard.img} sound={flashcard.sound}/>)
                     })
                 }
         </section>

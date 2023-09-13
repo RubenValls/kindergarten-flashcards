@@ -25,7 +25,48 @@
             "name": "Classroom",
             "img": "../assets/images/classroom/classroom.svg",
             "subtopics": [],
-            "flashcards": []
+            "flashcards": [
+                {
+                    "name": "Chair",
+                    "img": "../assets/images/classroom/chair.svg",
+                    "sound": "../assets/music/classroom/chair.mp3"
+                },
+                {
+                    "name": "Desk",
+                    "img": "../assets/images/classroom/desk.svg",
+                    "sound": "../assets/music/classroom/desk.mp3"
+                },
+                {
+                    "name": "Blackboard",
+                    "img": "../assets/images/classroom/blackboard.svg",
+                    "sound": "../assets/music/classroom/blackboard.mp3"
+                },
+                {
+                    "name": "Computer",
+                    "img": "../assets/images/classroom/computer.svg",
+                    "sound": "../assets/music/classroom/computer.mp3"
+                },
+                {
+                    "name": "Pen",
+                    "img": "../assets/images/classroom/pen.svg",
+                    "sound": "../assets/music/classroom/pen.mp3"
+                },
+                {
+                    "name": "Pencil",
+                    "img": "../assets/images/classroom/pencil.svg",
+                    "sound": "../assets/music/classroom/pencil.mp3"
+                },
+                {
+                    "name": "Rubber",
+                    "img": "../assets/images/classroom/rubber.svg",
+                    "sound": "../assets/music/classroom/rubber.mp3"
+                },
+                {
+                    "name": "Marker",
+                    "img": "../assets/images/classroom/marker.svg",
+                    "sound": "../assets/music/classroom/marker.mp3"
+                }
+            ]
         },
         {
             "name": "Transports",

@@ -1,8 +1,13 @@
 
-export default function SoundCard({name, img}) {
+export default function SoundCard({name, img, sound}) {
     
+    const playAudio = () => {
+        const audio = new Audio(sound);
+        audio.play(); 
+    }
+
     return (
-        <div className="card" onClick={() => {console.log('sound')}}>
+        <div className="card" onClick={playAudio}>
             <div className="topic-icon">
                 <img src={img} alt={name}/>
             </div>

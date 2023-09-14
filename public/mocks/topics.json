@@ -301,59 +301,111 @@
         {
             "name": "Earth",
             "img": "../assets/images/earth/earth.svg",
-            "subtopics": [],
-            "flashcards": [
-                {
-                    "name": "Tree",
-                    "img": "../assets/images/earth/tree.svg",
-                    "sound": "../assets/music/earth/tree.mp3"
-                },
-                {
-                    "name": "Flower",
-                    "img": "../assets/images/earth/flower.svg",
-                    "sound": "../assets/music/earth/flower.mp3"
-                },
-                {
-                    "name": "Mountain",
-                    "img": "../assets/images/earth/mountain.svg",
-                    "sound": "../assets/music/earth/mountain.mp3"
-                },
-                {
-                    "name": "Beach",
-                    "img": "../assets/images/earth/beach.svg",
-                    "sound": "../assets/music/earth/beach.mp3"
-                },
+            "subtopics": [
                 {
                     "name": "City",
                     "img": "../assets/images/earth/city.svg",
-                    "sound": "../assets/music/earth/city.mp3"
+                    "flashcards": [
+                        {
+                            "name": "Traffic Lights",
+                            "img": "../assets/images/earth/traffic-lights.svg",
+                            "sound": "../assets/music/earth/traffic-lights.mp3"
+                        },
+                        {
+                            "name": "Cinema",
+                            "img": "../assets/images/earth/cinema.svg",
+                            "sound": "../assets/music/earth/cinema.mp3"
+                        },
+                        {
+                            "name": "Bank",
+                            "img": "../assets/images/earth/bank.svg",
+                            "sound": "../assets/music/earth/bank.mp3"
+                        },
+                        {
+                            "name": "Factory",
+                            "img": "../assets/images/earth/factory.svg",
+                            "sound": "../assets/music/earth/factory.mp3"
+                        },
+                        {
+                            "name": "Fountain",
+                            "img": "../assets/images/earth/fountain.svg",
+                            "sound": "../assets/music/earth/fountain.mp3"
+                        },
+                        {
+                            "name": "Hospital",
+                            "img": "../assets/images/earth/hospital.svg",
+                            "sound": "../assets/music/earth/hospital.mp3"
+                        },
+                        {
+                            "name": "Airport",
+                            "img": "../assets/images/earth/airport.svg",
+                            "sound": "../assets/music/earth/airport.mp3"
+                        },
+                        {
+                            "name": "Church",
+                            "img": "../assets/images/earth/church.svg",
+                            "sound": "../assets/music/earth/church.mp3"
+                        },
+                        {
+                            "name": "Supermarket",
+                            "img": "../assets/images/earth/supermarket.svg",
+                            "sound": "../assets/music/earth/supermarket.mp3"
+                        }
+                    ]
                 },
                 {
-                    "name": "Road",
-                    "img": "../assets/images/earth/road.svg",
-                    "sound": "../assets/music/earth/road.mp3"
-                },
-                {
-                    "name": "Bridge",
-                    "img": "../assets/images/earth/bridge.svg",
-                    "sound": "../assets/music/earth/bridge.mp3"
-                },
-                {
-                    "name": "Volcano",
-                    "img": "../assets/images/earth/volcano.svg",
-                    "sound": "../assets/music/earth/volcano.mp3"
-                },
-                {
-                    "name": "Wave",
-                    "img": "../assets/images/earth/wave.svg",
-                    "sound": "../assets/music/earth/wave.mp3"
-                },
-                {
-                    "name": "Sky",
-                    "img": "../assets/images/earth/sky.svg",
-                    "sound": "../assets/music/earth/sky.mp3"
+                    "name": "Nature",
+                    "img": "../assets/images/earth/nature.svg",
+                    "flashcards": [
+                        {
+                            "name": "Tree",
+                            "img": "../assets/images/earth/tree.svg",
+                            "sound": "../assets/music/earth/tree.mp3"
+                        },
+                        {
+                            "name": "Flower",
+                            "img": "../assets/images/earth/flower.svg",
+                            "sound": "../assets/music/earth/flower.mp3"
+                        },
+                        {
+                            "name": "Mountain",
+                            "img": "../assets/images/earth/mountain.svg",
+                            "sound": "../assets/music/earth/mountain.mp3"
+                        },
+                        {
+                            "name": "Beach",
+                            "img": "../assets/images/earth/beach.svg",
+                            "sound": "../assets/music/earth/beach.mp3"
+                        },
+                        {
+                            "name": "Road",
+                            "img": "../assets/images/earth/road.svg",
+                            "sound": "../assets/music/earth/road.mp3"
+                        },
+                        {
+                            "name": "Bridge",
+                            "img": "../assets/images/earth/bridge.svg",
+                            "sound": "../assets/music/earth/bridge.mp3"
+                        },
+                        {
+                            "name": "Volcano",
+                            "img": "../assets/images/earth/volcano.svg",
+                            "sound": "../assets/music/earth/volcano.mp3"
+                        },
+                        {
+                            "name": "Wave",
+                            "img": "../assets/images/earth/wave.svg",
+                            "sound": "../assets/music/earth/wave.mp3"
+                        },
+                        {
+                            "name": "Sky",
+                            "img": "../assets/images/earth/sky.svg",
+                            "sound": "../assets/music/earth/sky.mp3"
+                        }
+                    ]
                 }
-            ]
+            ],
+            "flashcards": []
         },
         {
             "name": "Music",

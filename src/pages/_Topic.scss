@@ -1,6 +1,6 @@
 #topic{
     width: 100vw;
-    min-height: 100%;
+    min-height: 95%;
     height: auto;
     background-color: #BDD2B6;
     overflow: hidden;
@@ -112,22 +112,19 @@
             margin-top: 40px;
         }
     }
-
-    #footer{
-        width: 100%;
-        height: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        bottom: 0;
-        background-color: #798777;
-        h3{
-            color: #F8EDE3;
-        }
-        i{
-            margin-left: 5px;
-            color: #F8EDE3;
-        }
+}
+#footer{
+    background-color: #798777;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    h3{
+        color: #F8EDE3;
+    }
+    i{
+        margin-left: 5px;
+        color: #F8EDE3;
     }
 }

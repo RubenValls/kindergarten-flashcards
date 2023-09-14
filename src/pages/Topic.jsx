@@ -18,14 +18,16 @@ export default function Topic() {
     }, []);
 
     return (
-        <section id="topic">
+        <>
+            <section id="topic">
             <TopicNav/>
             {
                 data?.subtopics?.length > 0
                     ? (<Subtopics props = {data}/>)
                     : (<Flashcards/>)
             }
+            </section>
             <Footer/>
-        </section>
+        </>
     )
 }
